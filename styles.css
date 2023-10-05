@@ -1,0 +1,1014 @@
+@font-face {
+  font-family: "futura";
+  src: url("https://use.typekit.net/twt7jfe.css");
+}
+
+
+body {
+  overflow-x: hidden;
+}
+html {
+  box-sizing:border-box;
+}
+
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width:100%;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover, a:active, a:focus {
+  color:black;
+}
+
+
+
+.navbar {
+  position: absolute;
+  background-color:white  ;
+  width:100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  height:50px;
+}
+
+.navgrid {
+  position: relative;
+  top:25px;
+  display:grid;
+  column-count:5;
+  text-align:center;
+  color:black;
+  font-size:20px;
+}
+
+.Home {
+ grid-column:1;
+ font-family: futura-pt,sans-serif;
+ font-style: normal;
+ z-index: 2px;
+
+}
+
+.History {
+  grid-column:2;
+  font-family: futura-pt;
+  z-index: 2;
+}
+
+.Display {
+  grid-column:3;
+  font-family: futura-pt;
+  z-index: 2;
+}
+
+.Type {
+  grid-column:4;
+  font-family: futura-pt;
+  z-index: 2;
+}
+
+.Body {
+  grid-column:5;
+  font-family: futura-pt;
+  z-index: 2;
+}
+
+
+
+
+/* Don't delete keep class, above code interferes with next class */
+
+.background {
+  /*width:100%;
+  height:100%;*/
+}
+
+
+.headerbox {
+  position: absolute;
+  top:47px;
+  left:0px;
+  width:100%;
+  height:300px;
+
+}
+
+.font {
+  font-family: futura-pt;
+  position: relative;
+  color:black;
+  font-size:40px;
+  top:190px;
+  left:75%;
+}
+
+.header {
+  font-family: futura-pt;
+  position:absolute;
+  color:#00A2F1;
+  font-size:250px;
+  top:-99px;
+  left:25%;
+  z-index:1;
+
+}
+
+.headershadow {
+  font-family: futura-pt;
+  position:absolute;
+  color:black;
+  font-size:250px;
+  top:-97px;
+  left:25.5%;
+
+}
+
+.historybox {
+  position:absolute;
+  background-color:black;
+  width:100%;
+  height:500px;
+  top:547px;
+  left:0px;
+}
+
+.historyrec {
+  position: absolute;
+  background-color:#00A2F1;
+  height:15px;
+  width:15px;
+  top:150px;
+  left:23%;
+  transform: rotate(45deg);
+}
+
+.historyheader {
+  font-family: futura-pt;
+  position:relative;
+  color:white;
+  top:15px;
+  left:25%;
+  font-size:40px;
+}
+
+.history {
+  font-family: futura-pt;
+  position: relative;
+  color:lightblue;
+  top:5px;
+  left:25%;
+  width:600px;
+  font-size:20px;
+}
+.line2{
+  position: absolute;
+  top:108px;
+  left:0px;
+  height: 2px;
+  width: 460px;
+  background-color: white;
+  z-index:2;
+}
+
+.tri{
+  position:absolute;
+  top:0px;
+  left:35px;
+  background:#00A2F1;
+  border-left:60px solid black;
+  border-top:108px solid #00A2F1;
+  border-right:60px solid black;
+  border-bottom:60px solid black;
+}
+
+.one {
+  font-family: futura-pt,sans-serif;
+  color: grey;
+  font-weight: 40px;
+  font-style: italic;
+  font-size: 300px;
+  line-height: 0px;
+  position: absolute;
+  top:0%;
+  left:-15%;
+  margin:-150px 0px -150px 0px;
+  padding-top:0px;
+}
+
+.two {
+font-family: futura-pt;
+position: absolute;
+font-size: 90px;
+top:35%;
+color: white;
+left: 25%;
+
+}
+
+.three {
+font-family: futura-pt-bold;
+position: absolute;
+font-size:200px;
+color:#00A2F1;
+left: -40%;
+top: 25%;
+font-weight:600px;
+}
+
+.four {
+font-family: futura-pt;
+position: absolute;
+font-size: 80px;
+top:87%;
+left:45%;
+}
+
+.five {
+font-family: futura-pt;
+position: absolute;
+left:-65px;
+top:70%;
+font-size: 200px;
+color: darkgrey;
+}
+
+.displaybox {
+  position:absolute;
+  width:100%;
+  height:500px;
+  top:1047px;
+  left:0px;
+}
+
+.TypeSpecimenbox{
+  position:absolute;
+  background-color:white;
+  width:100%;
+  height:550px;
+  top:1847px;
+  left:0px;
+}
+
+.BodyCopybox{
+  position:absolute;
+  background-color:black;
+  width:100%;
+  height:600px;
+  top:2347px;
+  left:0px;
+}
+
+.BodyCopy{
+  font-family: futura-pt;
+  position: relative;
+  color: white;
+  font-size: 35px;
+  left: 10%;
+  top: 6%;
+}
+
+.line{
+  position: absolute;
+  height: 1.5px;
+  width: 280px;
+  background-color: white;
+
+
+}
+
+
+.lorem{
+  font-family: futura-pt;
+  position: relative;
+  color: white;
+  font-size: 79px;
+}
+
+.A-Z{
+  font-family: futura-pt;
+  position: absolute;
+  top:20%;
+  right: 15%;
+  font-size: 30px;
+  text-align:center;
+
+}
+
+.Num {
+font-family: futura-pt;
+color:#00A2F1;
+position: absolute;
+top:43%;
+right:19.9%;
+font-size:30px;
+}
+
+.Sym {
+font-family: futura-pt;
+color:black;
+position: absolute;
+top:52%;
+right:19%;
+font-size:30px;
+
+}
+
+.click {
+  font-family:futura-pt;
+  color:#00A2F1;
+  position: absolute;
+  top:17.8%;
+  right:21.5%;
+  font-size:20px;
+}
+
+.AaRec {
+  position: absolute;
+  background-color:black;
+  height:2px;
+  width:500px;
+  top: 65%;
+}
+
+.p1{
+  font-family: futura-pt,sans-serif;
+  color: #00A2F1;
+  font-weight: 40px;
+  font-size: 20px;
+  width: 600px;
+  left: 10%;
+  position: absolute;
+  line-height: 40px;
+
+
+}
+
+.p2{
+  position: absolute;
+  font-size: 12px;
+  color:white;
+  width: 200px;
+  right: 10%;
+  text-align: center;
+  top: 9%;
+  font-style: italic;
+}
+
+.p3{
+  font-family: futura-pt;
+  position: absolute;
+  font-size: 30px;
+  color: lightgrey;
+  bottom: 1%;
+  left: 10%;
+  width: 68%;
+  line-height: 27px;
+
+
+}
+
+.Panagram{
+  position:absolute;
+  background-color:white;
+  color: black;
+  width:100%;
+  height:80px;
+  top:2947px;
+  left:0px;
+  font-size: 35px;
+  font-family: futura-pt;
+  text-align: center;
+
+
+
+}
+.exp1box{
+  font-family:futura-pt;
+  position:absolute;
+  width:100%;
+  height: 600px;
+  top: 3027px;
+  margin-top: 20px;;
+}
+
+.f1 {
+  position: absolute;
+  top:-2%;
+  right:6%;
+  color:black;
+  font-size:100px;
+  font-weight: bold;
+  margin-top:-95px;
+  color: #A3B2BE;
+
+}
+
+.f2 {
+  position: absolute;
+  top:18%;
+  right:24%;
+  color:black;
+  font-size:85px;
+  font-weight: bold;
+  margin-top: -90px;
+  color: #7FA2C0;
+}
+
+.f3 {
+  position: absolute;
+  top:31%;
+  right:38.8%;
+  color:black;
+  font-size:75px;
+  font-weight: bold;
+  margin-top: -65px;
+  color: #518BBB;
+}
+
+.f4 {
+  position: absolute;
+  top:45%;
+  right:52%;
+  color:black;
+  font-size:65px;
+  font-weight: bold;
+  margin-top: -60px;
+    color: #2F72AA;
+}
+
+.f5 {
+  position: absolute;
+  top:57.5%;
+  right:63.5%;
+  color:black;
+  font-size:55px;
+  font-weight: bold;
+  margin-top: -50px;
+  color: #0B5FA5;
+}
+
+.f6 {
+  position: absolute;
+  top:67.8%;
+  right:73.5%;
+  color:darkblue;
+  font-size:40px;
+  font-weight: bold;
+  margin-top: -30px;
+  color: #074D88;
+
+}
+
+.f7 {
+  position: absolute;
+  top:74.8%;
+  right:80.5%;
+  color:darkgrey;
+  font-size:35px;
+  font-weight: bold;
+  margin-top: -15px;
+  color: #053964;
+}
+
+.f8 {
+  position: absolute;
+  top:82.5%;
+  right:87.5%;
+  color:black;
+  font-size:30px;
+  font-weight: bold;
+  margin-top: -10px;
+  color: #031D33;
+}
+
+.f9 {
+  position: absolute;
+  top:90.4%;
+  right:93.7%;
+  color:black;
+  font-size:23px;
+  font-weight: bold;
+  margin-top: -10px;
+  color:#04192A;
+}
+
+
+.Experiements2{
+  position:absolute;
+  background-color:#00A2F1;
+  width:100%;
+  height:760px;
+  top:3627px;
+  left:0px;
+  color: lightblue;
+}
+
+.fu{
+  position: absolute;
+  top:25%;
+  left:10%;
+  opacity:60%;
+  font-family: futura-pt;
+  font-size: 400px;
+  font-weight: 500;
+  white-space:nowrap;
+  margin-top: -200px;
+  margin-bottom:-200px;
+  font-style:italic;
+}
+
+.fd{
+  position: absolute;
+  bottom:29%;
+  left:10.4%;
+  opacity:60%;
+  font-family: futura-pt;
+  font-size: 400px;
+  transform: rotate(180deg);
+  font-weight: 500;
+  white-space:nowrap;
+  margin-top:-200px;
+  margin-bottom:-200px;
+  font-style:italic;
+}
+
+.Aa {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:38.4%;
+  font-size:30px;
+}
+
+.Aa:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Bb {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:35.45%;
+  font-size:30px;
+}
+
+.Bb:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Cc {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:32.45%;
+  font-size:30px;
+}
+
+.Cc:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Dd {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:29.25%;
+  font-size:30px;
+}
+
+.Dd:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Ee {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:26.5%;
+  font-size:30px;
+}
+
+.Ee:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Ff {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:24.45%;
+  font-size:30px;
+}
+
+.Ff:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Gg {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:20.95%;
+  font-size:30px;
+}
+
+.Gg:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Hh {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:17.9%;
+  font-size:30px;
+}
+
+.Hh:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Ii {
+  position: absolute;
+  font-family: futura-pt;
+  top:26%;
+  right:16.35%;
+  font-size:30px;
+}
+
+.Ii:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Jj {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:40.2%;
+  font-size:30px;
+}
+
+.Jj:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Kk {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:37.4%;
+  font-size:30px;
+}
+
+.Kk:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Ll {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:35.6%;
+  font-size:30px;
+}
+
+.Ll:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Mm {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:31.55%;
+  font-size:30px;
+}
+
+.Mm:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Nn {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:28.15%;
+  font-size:30px;
+}
+
+.Nn:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Oo {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:24.65%;
+  font-size:30px;
+}
+
+.Oo:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Pp {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:21.85%;
+  font-size:30px;
+}
+
+.Pp:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Qq {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:18.3%;
+  font-size:30px;
+}
+
+.Qq:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Rr {
+  position: absolute;
+  font-family: futura-pt;
+  top:33%;
+  right:15.95%;
+  font-size:30px;
+}
+
+.Rr:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Ss {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:36.3%;
+  font-size:30px;
+}
+
+.Ss:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Tt {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:34.4%;
+  font-size:30px;
+}
+
+.Tt:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Uu {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:31.4%;
+  font-size:30px;
+}
+
+.Uu:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Vv {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:30.7%;
+  font-size:30px;
+}
+
+.Vv:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Ww {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:27.2%;
+  font-size:30px;
+}
+
+.Ww:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Xx {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:24.5%;
+  font-size:30px;
+}
+
+.Xx:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Yy {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:21.8%;
+  font-size:30px;
+}
+
+.Yy:active {
+  Margin-top:-150px;
+  Font-family: futura-pt;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
+
+.Zz {
+  position: absolute;
+  font-family: futura-pt;
+  top:40%;
+  right:19%;
+  font-size:30px;
+}
+
+.Zz:active {
+  Margin-top:-150px;
+  Font-family: futura-ptl;
+  position: absolute;
+  color:#00A2F1;
+  top:37%;
+  left:8%;
+  font-size:300px;
+}
